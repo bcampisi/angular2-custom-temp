@@ -1,0 +1,23 @@
+{
+  "name": "angular2shell",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "serve": "./node_modules/.bin/webpack-dev-server",
+    "build": "./node_modules/.bin/webpack"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-alpha.47",
+    "reflect-metadata": "^0.1.2",
+    "zone.js": "^0.5.8"
+  },
+  "devDependencies": {
+    "firebase-cli": "^1.2.0",
+    "firebase-tools": "^2.1.0",
+    "ts-loader": "^0.7.2",
+    "typescript": "^1.7.3",
+    "webpack": "^1.12.9",
+    "webpack-dev-server": "^1.14.0",
+    "webpack-livereload-plugin": "^0.4.0"
+  }
+}
